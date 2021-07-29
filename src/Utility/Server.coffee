@@ -6,7 +6,7 @@ import Sugar from "sugar-and-spice"
 Sugar.extend()
 
 `const appPrefix = import.meta.env.VITE_ENV_PREFIX`
-import PgForwardMigration from "pg-forward-migrations"
+import PgForwardMigration from "../Database/PostgresqlMigration.coffee"
 import Database from "../Database/Postgresql.coffee"
 
 
