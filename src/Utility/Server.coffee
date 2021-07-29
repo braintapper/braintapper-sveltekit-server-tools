@@ -6,7 +6,7 @@ import Sugar from "sugar-and-spice"
 Sugar.extend()
 
 `const appPrefix = import.meta.env.VITE_ENV_PREFIX`
-import PgForwardMigration from "../Database/PostgresqlMigration.coffee"
+# import PgForwardMigration from "../Database/PostgresqlMigration.coffee"
 import Database from "../Database/Postgresql.coffee"
 
 
@@ -43,8 +43,8 @@ Server =
     unless @environment == "development"  || @environment.length == 0 # prod only
       try
         debug.announce "Run Outstanding Migrations"
-        outstandingMigrations = new PgForwardMigration(@migration_configuration)
-        outstandingMigrations.migrate()
+        #outstandingMigrations = new PgForwardMigration(@migration_configuration)
+        #outstandingMigrations.migrate()
       catch e
         debug.announce "Migration Error"
         debug.log e
