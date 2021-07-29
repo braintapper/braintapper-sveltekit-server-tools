@@ -1,7 +1,8 @@
 # compatbility with express type of response
 
 import nodeCookie from 'node-cookie'
-import debug from "../Utility/Console.coffee"
+import Console from "../Utility/Console.coffee"
+debug = console
 class Response
 
   # status: (p) => ({json: (p) => {}})

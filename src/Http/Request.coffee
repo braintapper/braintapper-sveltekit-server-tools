@@ -1,7 +1,8 @@
 # compatbility with express type of request
-import debug from "../Utility/Console.coffee"
+import Console from "../Utility/Console.coffee"
 import nodeCookie from 'node-cookie'
 
+debug = Console
 ###
 type Request<Locals = Record<string, any>, Body = unknown> = {
   method: string;

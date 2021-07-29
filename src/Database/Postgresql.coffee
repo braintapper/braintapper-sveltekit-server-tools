@@ -13,7 +13,7 @@ Pooled query execution for PG
 ###
 
 import Sugar from 'sugar-and-spice'
-import debug from "$lib/_Utility/Console.coffee"
+import Console from "../Utility/Console.coffee"
 
 
 Sugar.extend()

@@ -1,6 +1,6 @@
 import { browser, dev, mode } from "$app/env"
 
-import debug from "$lib/_Utility/Console.coffee"
+import debug from "./Console.coffee"
 
 import Sugar from "sugar-and-spice"
 Sugar.extend()
