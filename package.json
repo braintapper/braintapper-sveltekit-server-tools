@@ -1,6 +1,6 @@
 {
   "name": "braintapper-sveltekit-server-tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Server side code libraries for sveltekit (coffeescript)",
   "author": "braintapper",
   "license": "MIT",

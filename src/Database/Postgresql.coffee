@@ -22,7 +22,7 @@ Sugar.extend()
 import pg from "pg"
 import sqt from "sql-template-strings"
 
-# import log from "$lib/Common/log"
+
 
 
 
